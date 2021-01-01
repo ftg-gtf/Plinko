@@ -15,11 +15,7 @@ class Div {
         fill("white");
         rect(pos.x,pos.y,this.w,this.h);
         
-        for (var k = 0; k <=width; k = k + 80) {
-            div.push(new Div(k, height-divh/2, 10, divh));
-        }
-        for (var k = 0; k < div.length; k++){
-            div[k].display();
-        }
+        
+        
     }
 };
